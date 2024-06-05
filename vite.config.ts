@@ -6,6 +6,7 @@ import tailwind from "tailwindcss"
 import autoprefixer from "autoprefixer"
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/tmp',
   css: {
     postcss: {
       plugins: [tailwind(), autoprefixer()],
